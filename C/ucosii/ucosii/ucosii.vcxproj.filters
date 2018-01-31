@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ucosii">
+      <UniqueIdentifier>{3237969c-07d8-428e-ade9-160f15d6c866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{37c1f6ad-4c64-4edc-bfba-ded1e5dc2370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port">
+      <UniqueIdentifier>{a11a1f9e-e70d-4951-a4c6-62f52ba412c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task">
+      <UniqueIdentifier>{1619cc6f-a1c4-41e6-bbba-90d7e166843a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="midware">
+      <UniqueIdentifier>{7b836cb2-f50e-45fa-950f-368236d8c81f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ucosii\ucos_ii.h">
+      <Filter>ucosii</Filter>
+    </ClInclude>
+    <ClInclude Include="app\app_cfg.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\includes.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="port\os_cpu.h">
+      <Filter>port</Filter>
+    </ClInclude>
+    <ClInclude Include="port\pc.h">
+      <Filter>port</Filter>
+    </ClInclude>
+    <ClInclude Include="ucosii\os_cfg.h">
+      <Filter>ucosii</Filter>
+    </ClInclude>
+    <ClInclude Include="task\InputTask.h">
+      <Filter>task</Filter>
+    </ClInclude>
+    <ClInclude Include="task\Ticks.h">
+      <Filter>task</Filter>
+    </ClInclude>
+    <ClInclude Include="task\OutPut.h">
+      <Filter>task</Filter>
+    </ClInclude>
+    <ClInclude Include="midware\midware.h">
+      <Filter>midware</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ucosii\os_core.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="ucosii\os_dbg_r.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="ucosii\os_flag.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="ucosii\os_mbox.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="ucosii\os_mem.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="ucosii\os_mutex.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="ucosii\os_q.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="ucosii\os_sem.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="ucosii\os_task.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="ucosii\os_time.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="ucosii\os_tmr.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="ucosii\ucos_ii.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="port\os_cpu_c.c">
+      <Filter>port</Filter>
+    </ClCompile>
+    <ClCompile Include="port\pc.c">
+      <Filter>port</Filter>
+    </ClCompile>
+    <ClCompile Include="app\main.c">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="task\InputTask.c">
+      <Filter>task</Filter>
+    </ClCompile>
+    <ClCompile Include="task\Ticks.c">
+      <Filter>task</Filter>
+    </ClCompile>
+    <ClCompile Include="task\OutPut.c">
+      <Filter>task</Filter>
+    </ClCompile>
+    <ClCompile Include="midware\midware.c">
+      <Filter>midware</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
